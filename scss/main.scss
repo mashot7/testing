@@ -1,0 +1,67 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+#slide {
+    background-image: url("../imgs/2.png");
+    height: 100vh;
+    width: 100%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+.not-a-btn {
+    border: 1px solid #1663D5;
+    margin: 10px 40px 10px 75px;
+}
+
+.not-a-btn a {
+    padding: 10px 30px;
+    color: #1663D5;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap
+}
+
+.not-a-btn a:hover {
+    color: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.16);
+    background-image: linear-gradient(#1663D5, #2272E8);
+}
+
+.navbar-brand{
+    margin: 0 50px 0 40px;
+}
+
+.navbar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    height: 88px;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.navbar-nav  li a{
+    margin: 20px 5px;
+    color: #414849;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    float: right;
+}
+
+.navbar-nav li  .active {
+    color: #1663D5;
+}
+.navbar-nav li  .active:hover {
+    color: #1663D5;
+}
+
+.navbar-nav li a:hover {
+    color: rgba(65,72,73,0.75);
+    
+}
